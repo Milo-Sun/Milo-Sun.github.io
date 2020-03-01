@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Milo-Sun.github.io</id>
     <title>Gridea</title>
-    <updated>2020-03-01T15:15:29.560Z</updated>
+    <updated>2020-03-01T15:39:48.375Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Milo-Sun.github.io"/>
     <link rel="self" href="https://Milo-Sun.github.io/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://Milo-Sun.github.io/images/avatar.png</logo>
     <icon>https://Milo-Sun.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[平底锅舒芙蕾第一次，果然很失败😡]]></title>
+        <id>https://Milo-Sun.github.io/post/ping-di-guo/</id>
+        <link href="https://Milo-Sun.github.io/post/ping-di-guo/">
+        </link>
+        <updated>2020-03-01T15:28:25.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://Milo-Sun.github.io/post-images/1583076850789.jfif" alt="" loading="lazy"><br>
+<img src="https://Milo-Sun.github.io/post-images/1583076859794.jfif" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[第一次搭建博客成功！😆]]></title>
         <id>https://Milo-Sun.github.io/post/di-yi-ci-da-jian-bo-ke-cheng-gong/</id>
@@ -20,38 +30,32 @@
 操作步骤基本上是这样的：<br>
 Gridea+GitHub搭建个人博客<br>
 安装完成Gridea客户端后，下面需要在GitHub上新建项目，然后Gridea客户端再进行相关配置，完成之后我们在Gridea客户端写的文章即可通过GitHub Pages展示出来。官方给出了详细的配置文档，大家可以跟着一步步来。</p>
-<pre><code>1.准备工作
-由于 Github 和 Coding 的步骤差不多，下面就以 Github 为例来操作一下
-必须：确保你已经安装过 Git 和 Gridea
-注意：同步会覆盖掉仓库的文件，若仓库内有需要备份的，请手动备份
-首先你需要一个 Github 账号，如果没有的话，快去注册一个吧！
-登录 Github，然后进入到 这里 创建一个 Token，勾选上 repo 的相关权限即可，下面是对应的截图：
-![](https://Milo-Sun.github.io/post-images/1583074489432.png)
-生成之后你可以复制 Token 到你可以再次找到的某个地方，因为一旦你关了这个网页就再也不会看到它了，稍后会在软件中使用。
-![](https://Milo-Sun.github.io/post-images/1583074525565.png)
-
-2.Token示例
-接下来你需要创建一个仓库，用来存放博客构建后的静态文件。建议你创建仓库名为用户名**.github.io**的仓库，因为 Github 会默认将此仓库设置成 Github Pages 可访问类型，若不是用此命名的仓库，则不能默认使用 Github Pages，所以请认真确认。例如我的 Github 用户名为 EryouHao，则仓库名为 EryouHao.github.io。使用这种方式还有一个好处是，在没有自定义域名的情况下，使你的博客域名更短。当然如果想使用其他仓库来存放博客静态文件的话，也不是不可以，只不过，存放之后，若没有设置自定义域名，则访问地址将变成 https://用户名.github.io/blog （blog 为仓库名）这种二级目录的形式。
-![](https://Milo-Sun.github.io/post-images/1583074751835.png)!
-
-3.开始使用
-打开 Hve Notes 进入到配置页面，然后按照下面示例，输入相关配置并保存
-配置示例
-![](https://Milo-Sun.github.io/post-images/1583074919315.png)
-在不开启文章评论的情况下，到此为止，你已经可以点击预览，点击同步进行博客部署啦，快去试试看吧！（当然在不同步的情况下🙃）
-
-4.开启文章评论
-Hve Notes 目前提供了 Gitalk 和 Disqus 两种评论系统支持。
-Gitalk 是一个基于 GitHub Issue 和 Preact 开发的评论插件。如果你博客使用的是           Gitalk 的话，建议你可以选择 Gitalk 来作为评论插件。（这里我使用的是gittalk🤓）
-首先你需要有一个 Github OAuth Application，点击这里
-</code></pre>
-<p>https://github.com/settings/applications/new 创建，字段填写可以参照下            <img src="https://Milo-Sun.github.io/post-images/1583075622783.png" alt="" loading="lazy"><br>
+<p>1.准备工作<br>
+由于 Github 和 Coding 的步骤差不多，下面就以 Github 为例来操作一下<br>
+必须：确保你已经安装过 Git 和 Gridea<br>
+注意：同步会覆盖掉仓库的文件，若仓库内有需要备份的，请手动备份<br>
+首先你需要一个 Github 账号，如果没有的话，快去注册一个吧！<br>
+登录 Github，然后进入到 这里 创建一个 Token，勾选上 repo 的相关权限即可，下面是对应的截图：<img src="https://Milo-Sun.github.io/post-images/1583076362444.png" alt="" loading="lazy"><br>
+生成之后你可以复制 Token 到你可以再次找到的某个地方，因为一旦你关了这个网页就再也不会看到它了，稍后会在软件中使用。<br>
+<img src="https://Milo-Sun.github.io/post-images/1583074525565.png" alt="" loading="lazy"></p>
+<p>2.Token示例<br>
+接下来你需要创建一个仓库，用来存放博客构建后的静态文件。建议你创建仓库名为用户名**.github.io**的仓库，因为 Github 会默认将此仓库设置成 Github Pages 可访问类型，若不是用此命名的仓库，则不能默认使用 Github Pages，所以请认真确认。例如我的 Github 用户名为 EryouHao，则仓库名为 EryouHao.github.io。使用这种方式还有一个好处是，在没有自定义域名的情况下，使你的博客域名更短。当然如果想使用其他仓库来存放博客静态文件的话，也不是不可以，只不过，存放之后，若没有设置自定义域名，则访问地址将变成 https://用户名.github.io/blog （blog 为仓库名）这种二级目录的形式。<br>
+<img src="https://Milo-Sun.github.io/post-images/1583074751835.png" alt="" loading="lazy">!</p>
+<p>3.开始使用<br>
+打开 Hve Notes 进入到配置页面，然后按照下面示例，输入相关配置并保存<br>
+配置示例<br>
+<img src="https://Milo-Sun.github.io/post-images/1583074919315.png" alt="" loading="lazy"><br>
+在不开启文章评论的情况下，到此为止，你已经可以点击预览，点击同步进行博客部署啦，快去试试看吧！（当然在不同步的情况下🙃）</p>
+<p>4.开启文章评论<br>
+Hve Notes 目前提供了 Gitalk 和 Disqus 两种评论系统支持。<br>
+Gitalk 是一个基于 GitHub Issue 和 Preact 开发的评论插件。如果你博客使用的是           Gitalk 的话，建议你可以选择 Gitalk 来作为评论插件。（这里我使用的是gittalk🤓）<br>
+首先你需要有一个 Github OAuth Application，点击这里<br>
+https://github.com/settings/applications/new 创建，字段填写可以参照下            <img src="https://Milo-Sun.github.io/post-images/1583075622783.png" alt="" loading="lazy"><br>
 创建完成后可将 Client ID 和 Client Secret复制一下，保存到本地<br>
 <img src="https://Milo-Sun.github.io/post-images/1583075698826.png" alt="" loading="lazy"><br>
 接下来就可以去应用里面填写对应的信息，并开启评论。<br>
 这样评论插件就设置好了，在预览时会在文章页显示评论模块，但不会显示具体的评论信息，因为这个是本地预览，而 Github OAuth 设置的域名为线上的域名。待博客同步到线上时就可以显示啦！</p>
-<pre><code>快快开始你的创作吧！
-</code></pre>
+<p>快快开始你的创作吧！</p>
 ]]></content>
     </entry>
     <entry>
