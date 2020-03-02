@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Milo-Sun.github.io</id>
     <title>Gridea</title>
-    <updated>2020-03-02T02:41:08.340Z</updated>
+    <updated>2020-03-02T02:50:55.058Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Milo-Sun.github.io"/>
     <link rel="self" href="https://Milo-Sun.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://Milo-Sun.github.io/images/avatar.png</logo>
     <icon>https://Milo-Sun.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[![](file://C:/Users/30817/Documents/Gridea/post-images/1583117428647.png)                                            王者之巅，大神之路]]></title>
+        <id>https://Milo-Sun.github.io/post/filecusers30817documentsgrideapost-images1583117428647png-wang-zhe-zhi-dian-da-shen-zhi-lu/</id>
+        <link href="https://Milo-Sun.github.io/post/filecusers30817documentsgrideapost-images1583117428647png-wang-zhe-zhi-dian-da-shen-zhi-lu/">
+        </link>
+        <updated>2020-03-02T02:46:52.000Z</updated>
+        <content type="html"><![CDATA[<p>敬请期待</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[平底锅舒芙蕾第一次，果然很失败😡]]></title>
         <id>https://Milo-Sun.github.io/post/ping-di-guo/</id>
